@@ -1,26 +1,16 @@
-// function showSection(element){
-     const navigationTogglerButton = document.getElementsByClassName("navigation-toggler")[0];
-     const side = document.getElementsByClassName("side")[0];
+// Code for the navigation Button. It makes the navigation section slide out.
 
-     navigationTogglerButton.addEventListener("click",() =>{
-         sideSectionTogglerButton();
-     })
+const navigationTogglerButton = document.getElementsByClassName("navigation-toggler")[0];
+const side = document.getElementsByClassName("side")[0];
 
-     function sideSectionTogglerButton(){
-         side.classList.toggle("open");
-         navigationTogglerButton.classList.toggle("open");
-     }
-//  }
+navigationTogglerButton.addEventListener("click",() =>{
+	sideSectionTogglerButton();
+})
 
-//  document.getElementsByClassName("navigation-toggler").addEventListener("click", myFunction);
-
-// / function myFunction() {
-// //   alert ("Hello World!");
-// // }
-
-// document.getElementsByClassName("navigation-toggler")[0].addEventListener("click", function(){
-//   alert("test");
-// });
+function sideSectionTogglerButton(){
+	side.classList.toggle("open");
+	navigationTogglerButton.classList.toggle("open");
+}
 
 // Switch to toggle light/dark mode
 
