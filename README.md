@@ -1,6 +1,6 @@
 # About
 This is the website that should run on `victorbuch.dk` in the future. It is fully open <3 source.
-It is still at an early stage and is far from done.
+It is still at an early stage and is far from being done.
 
 # Color scheme
 
