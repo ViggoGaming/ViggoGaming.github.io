@@ -175,6 +175,10 @@ body{
     margin-right: 5px;
 }
 
+/* .hidden{
+    display: none !important;
+} */
+
 .side .copyright{
     font-size: 13px;
     color: var(--small-text);
@@ -398,3 +402,5 @@ input:checked + .slider:before {
 .slider.round:before {
   border-radius: 50%;
 }
+
+/* About Section */
