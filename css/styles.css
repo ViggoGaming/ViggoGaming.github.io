@@ -265,14 +265,16 @@ body{
 .home-section .info img{
     max-width: 3000px;
     max-height: 300px;
-    border-radius: 50%;
+    /* border-radius: 50%; */
     display: inline-block;
-    border: 8px solid #ffffff
+    /* border: 8px solid #ffffff */
 }
 
 .shadow{
-    -webkit-box-shadow: 0 0 20px rgba(48,46,77,0.15);
-    box-shadow: 0 0 20px rgba(48,46,77,0.15);
+    /* -webkit-box-shadow: 0 0 20px rgba(48,46,77,0.15); */
+    /* box-shadow: 0 0 20px rgba(48,46,77,0.15); */
+    /* background-color: red; */
+    scale: 1.20;
 }
 
 .home-section .info h1{
@@ -401,6 +403,38 @@ input:checked + .slider:before {
 
 .slider.round:before {
   border-radius: 50%;
+}
+
+/* Typewriter */
+.wrapper {
+  /* height: 100vh; */
+  /*This part is important for centering*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.typing-demo {
+  width: 18ch;
+  animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  line-height: 26px;
+  font-family: monospace;
+  font-size: 2em;
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+    
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
 }
 
 /* About Section */

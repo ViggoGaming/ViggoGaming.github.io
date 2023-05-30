@@ -3,13 +3,13 @@
 const navigationTogglerButton = document.getElementsByClassName("navigation-toggler")[0];
 const side = document.getElementsByClassName("side")[0];
 
-navigationTogglerButton.addEventListener("click",() =>{
-	sideSectionTogglerButton();
+navigationTogglerButton.addEventListener("click", () => {
+    sideSectionTogglerButton();
 })
 
-function sideSectionTogglerButton(){
-	side.classList.toggle("open");
-	navigationTogglerButton.classList.toggle("open");
+function sideSectionTogglerButton() {
+    side.classList.toggle("open");
+    navigationTogglerButton.classList.toggle("open");
 }
 
 // Switch to toggle light/dark mode
@@ -22,7 +22,7 @@ function switchTheme(e) {
     }
     else {
         document.documentElement.setAttribute('data-theme', 'light');
-    }    
+    }
 }
 
 toggleSwitch.addEventListener('change', switchTheme, false);
